@@ -5,7 +5,7 @@ weatherForm.addEventListener('submit', e => {
     e.preventDefault()
     
     const search = input.value
-    const request = `http://localhost:3000/weather?search=${search}`
+    const request = `/weather?search=${search}`
     const message = document.querySelector('#message')
     const info = document.querySelector('#info')
     
