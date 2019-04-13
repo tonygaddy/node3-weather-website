@@ -1,0 +1,107 @@
+body {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 5em;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.error {
+    background-color: lightpink;
+    border: 1px soild red;
+    border-radius: .5em;
+    color: red;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: .5em;
+}
+
+.loading {
+    background-color: darkgreen;
+    border: 1px soild black;
+    border-radius: .5em;
+    color: white;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: .5em;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+.portrait {
+    width: 250px;
+}
+
+header {
+    margin-top: 1em;
+    margin-bottom: 2em;  
+}
+
+header h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a {
+    border-top: 3px solid slategray;
+    border-left: 3px solid slategray;
+    border-right: 3px solid slategray;
+    border-bottom: 1px solid lightgray;
+    border-radius: 1em 1em 0 0;
+    color: slategray;
+    padding: 1em;
+    text-decoration: none; 
+}
+
+header a:hover {
+    color: white;
+    background-color: dimgray;
+}
+
+.form {
+    margin: 3em auto 0 auto;
+    width: 320px;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid lightgrey;
+    font-size: 1.1em;
+    padding: .5em;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+    border-bottom: 4px solid ;
+}
+
+button {
+    background-color: whitesmoke;
+    border-radius: .5em;
+    color: grey;
+    cursor: pointer;
+    padding: .5em;
+    font-size: 1.1em;
+}
+
+button:hover {
+    background-color: grey;
+    color: whitesmoke;
+}
+
+footer {
+    background-color: gray;
+    border-top: 5px solid black;
+    border-radius: .5em;
+    color: whitesmoke;
+    margin-top: 2em;
+    padding: 1em;
+    text-align: center;
+}
